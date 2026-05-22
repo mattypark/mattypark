@@ -1,55 +1,71 @@
-```markdown
 <div align="center">
 
-# Welcome to my GitHub
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=44&duration=3000&pause=900&color=E8DCB8&center=true&vCenter=true&width=720&height=70&lines=MATTHEW+PARK;15+Y%2FO+FOUNDER;BUILDING+AXIOM" alt="Matthew Park" />
 
-**High school founder · full-stack engineer · building Axiom**
+<br/>
+
+![Status](https://img.shields.io/badge/EST-2010-E8DCB8?style=for-the-badge&labelColor=0a0a0a)
+![Status](https://img.shields.io/badge/SCROLL-(TRUST)-E8DCB8?style=for-the-badge&labelColor=0a0a0a)
+![Site](https://img.shields.io/badge/matthewnpark.com-E8DCB8?style=for-the-badge&labelColor=0a0a0a&logo=safari&logoColor=E8DCB8)
 
 </div>
 
 ---
 
-### 🛠 What I build
+```txt
+> whoami
 
-**Problem → Idea → Design → Ship → Learn**
+Founder and CEO of Axiom Pathways, a nonprofit having top
+VC's/Founders teaching AI, CS, entrepreneurship, and
+startups to interns/highschoolers who care more than
+they're qualified.
 
-- Clarify the problem in one paragraph, no jargon
-- Sketch the flow in Figma before writing a line of code
-- Ship full-stack with Next.js, React, TypeScript, Node, Postgres
-- Measure, talk to users, and rip out anything that isn't working
+I'm constantly learning, I'm so young, I'm not afraid to
+switch from one thing to another, and I'm very, VERY
+Extroverted. like very.
 
----
-
-### 💻 Stack
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Postgres](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
----
-
-### 🌱 Currently
-
-- Building **Axiom** — a global student-led nonprofit teaching AI, CS, and marketing
-- Partnered with **Stanford KID** on global chapter rollout
-- Leveling up: DSA, distributed systems, and shipping one real backend per month
-
----
-
-### 🎯 Outside the editor
-
-☕ Coffee · 🎧 Music · 🏃 Running · 📓 Writing
-
----
-
-<div align="center">
-
-[matthewnpark.com](https://matthewnpark.com) · [LinkedIn](https://linkedin.com/in/your-handle) · matthew@axiom.org
-
-</div>
+// also: brand systems, ops automations, the occasional
+// landing page that converts.
 ```
+
+---
+
+### `>` stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-E8DCB8?style=for-the-badge&logo=typescript&logoColor=0a0a0a&labelColor=0a0a0a)
+![Next.js](https://img.shields.io/badge/Next.js-E8DCB8?style=for-the-badge&logo=nextdotjs&logoColor=0a0a0a&labelColor=0a0a0a)
+![React](https://img.shields.io/badge/React-E8DCB8?style=for-the-badge&logo=react&logoColor=0a0a0a&labelColor=0a0a0a)
+![Tailwind](https://img.shields.io/badge/Tailwind-E8DCB8?style=for-the-badge&logo=tailwindcss&logoColor=0a0a0a&labelColor=0a0a0a)
+![Supabase](https://img.shields.io/badge/Supabase-E8DCB8?style=for-the-badge&logo=supabase&logoColor=0a0a0a&labelColor=0a0a0a)
+![Vercel](https://img.shields.io/badge/Vercel-E8DCB8?style=for-the-badge&logo=vercel&logoColor=0a0a0a&labelColor=0a0a0a)
+![Python](https://img.shields.io/badge/Python-E8DCB8?style=for-the-badge&logo=python&logoColor=0a0a0a&labelColor=0a0a0a)
+![Figma](https://img.shields.io/badge/Figma-E8DCB8?style=for-the-badge&logo=figma&logoColor=0a0a0a&labelColor=0a0a0a)
+
+---
+
+### `>` currently
+
+- Running **Axiom Pathways** — chapters with passionate interns, partnered with **Stanford KID**
+- Shipping landing pages, ops automations, brand systems
+- Learning out loud → constantly switching, constantly building
+
+---
+
+### `>` stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=mattypark&show_icons=true&hide_border=true&title_color=E8DCB8&text_color=E8DCB8&icon_color=FF4127&bg_color=0a0a0a&include_all_commits=true&count_private=true" height="165" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mattypark&layout=compact&hide_border=true&title_color=E8DCB8&text_color=E8DCB8&bg_color=0a0a0a&langs_count=8" height="165" alt="Top langs" />
+
+</div>
+
+---
+
+<div align="center">
+
+[**matthewnpark.com**](https://matthewnpark.com)  ·  [**@MattyparkW**](https://twitter.com/MattyparkW)  ·  [**LinkedIn**](https://linkedin.com/in/mattypark)
+
+<sub><code>// audio is half the portfolio — turn it on</code></sub>
+
+</div>
