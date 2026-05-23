@@ -4,8 +4,8 @@
 
 <br/>
 
-![Status](https://img.shields.io/badge/EST-2010-E8DCB8?style=for-the-badge&labelColor=0a0a0a)
-![Status](https://img.shields.io/badge/SCROLL-(TRUST)-E8DCB8?style=for-the-badge&labelColor=0a0a0a)
+![EST](https://img.shields.io/badge/EST-2010-E8DCB8?style=for-the-badge&labelColor=0a0a0a)
+![Name](https://img.shields.io/badge/MATTHEW-PARK-E8DCB8?style=for-the-badge&labelColor=0a0a0a)
 ![Site](https://img.shields.io/badge/matthewnpark.com-E8DCB8?style=for-the-badge&labelColor=0a0a0a&logo=safari&logoColor=E8DCB8)
 
 </div>
@@ -30,7 +30,7 @@ Extroverted. like very.
 
 ---
 
-### `>` stack
+### `>` skilled at
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-E8DCB8?style=for-the-badge&logo=typescript&logoColor=0a0a0a&labelColor=0a0a0a)
 ![Next.js](https://img.shields.io/badge/Next.js-E8DCB8?style=for-the-badge&logo=nextdotjs&logoColor=0a0a0a&labelColor=0a0a0a)
@@ -45,8 +45,15 @@ Extroverted. like very.
 
 ### `>` currently
 
+- Building **Slap Shift**
 - Running **Axiom Pathways** — chapters with passionate interns, partnered with **Stanford KID**
 - Shipping landing pages, ops automations, brand systems
+
+---
+
+### `>` learning
+
+- LeetCode → grinding DSA daily
 - Learning out loud → constantly switching, constantly building
 
 ---
@@ -64,8 +71,13 @@ Extroverted. like very.
 
 <div align="center">
 
-[**matthewnpark.com**](https://matthewnpark.com)  ·  [**@MattyparkW**](https://twitter.com/MattyparkW)  ·  [**LinkedIn**](https://linkedin.com/in/mattypark)
+### `>` socials
 
-<sub><code>// audio is half the portfolio — turn it on</code></sub>
+[![Portfolio](https://img.shields.io/badge/Portfolio-E8DCB8?style=for-the-badge&logo=safari&logoColor=0a0a0a&labelColor=0a0a0a)](https://matthewnpark.com)
+[![Twitter](https://img.shields.io/badge/Twitter-E8DCB8?style=for-the-badge&logo=x&logoColor=0a0a0a&labelColor=0a0a0a)](https://twitter.com/MattyparkW)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-E8DCB8?style=for-the-badge&logo=linkedin&logoColor=0a0a0a&labelColor=0a0a0a)](https://linkedin.com/in/mattypark)
+[![GitHub](https://img.shields.io/badge/GitHub-E8DCB8?style=for-the-badge&logo=github&logoColor=0a0a0a&labelColor=0a0a0a)](https://github.com/mattypark)
+[![Instagram](https://img.shields.io/badge/Instagram-E8DCB8?style=for-the-badge&logo=instagram&logoColor=0a0a0a&labelColor=0a0a0a)](https://instagram.com/mattypark)
+[![YouTube](https://img.shields.io/badge/YouTube-E8DCB8?style=for-the-badge&logo=youtube&logoColor=0a0a0a&labelColor=0a0a0a)](https://youtube.com/@mattypark)
 
 </div>
