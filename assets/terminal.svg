@@ -1,0 +1,168 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 880 476"
+  width="880"
+  height="476"
+  role="img"
+  aria-label="Terminal: matthew@earth ~ % npm run dev — 30M+ views, 75K+ followers, 25+ repos shipped in public. Commands: about, building, socials, writing, contact."
+  font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace"
+>
+  <title>matthew@earth — npm run dev</title>
+
+  <defs>
+    <!-- Warm paper-grain vignette. Old-money stationery, not neon terminal. -->
+    <radialGradient id="vignette" cx="50%" cy="42%" r="78%">
+      <stop offset="0%" stop-color="#141414" />
+      <stop offset="100%" stop-color="#080808" />
+    </radialGradient>
+
+    <!-- Typewriter reveal for `npm run dev` -->
+    <clipPath id="typeCmd">
+      <rect x="205" y="58" height="22" width="0">
+        <animate
+          attributeName="width"
+          from="0" to="99"
+          dur="0.99s" begin="1.25s"
+          calcMode="discrete"
+          values="0;9;18;27;36;45;54;63;72;81;90;99"
+          keyTimes="0;0.083;0.167;0.25;0.333;0.417;0.5;0.583;0.667;0.75;0.833;1"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <!-- Hairline rule that draws itself left to right -->
+    <clipPath id="ruleWipe">
+      <rect x="40" y="230" height="20" width="0">
+        <animate attributeName="width" from="0" to="800" dur="0.7s" begin="3.5s" fill="freeze" />
+      </rect>
+    </clipPath>
+
+    <style>
+      /* All motion is declarative — GitHub strips script, so this is CSS + SMIL only. */
+      .ink      { fill: #F2EFE8; }
+      .dim      { fill: #7E7B75; }
+      .faint    { fill: #4A4844; }
+      .serif    { font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif; }
+
+      .fade     { opacity: 0; animation: fade .85s cubic-bezier(.16,1,.3,1) forwards; }
+      @keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+      .d-chrome { animation-delay: .55s; }
+      .d-prompt { animation-delay: 1.05s; }
+      .d-out1   { animation-delay: 2.45s; }
+      .d-out2   { animation-delay: 2.65s; }
+      .d-out3   { animation-delay: 2.85s; }
+      .d-ready  { animation-delay: 3.10s; }
+      .d-local  { animation-delay: 3.30s; }
+      .d-label  { animation-delay: 4.05s; }
+      .d-cmd1   { animation-delay: 4.25s; }
+      .d-cmd2   { animation-delay: 4.40s; }
+      .d-cmd3   { animation-delay: 4.55s; }
+      .d-cmd4   { animation-delay: 4.70s; }
+      .d-cmd5   { animation-delay: 4.85s; }
+      .d-tail   { animation-delay: 5.20s; }
+
+      /* Window frame draws itself, like ruling a page */
+      .frame {
+        fill: none;
+        stroke: #33312D;
+        stroke-width: 1;
+        stroke-dasharray: 2712;
+        stroke-dashoffset: 2712;
+        animation: draw 1.15s cubic-bezier(.16,1,.3,1) forwards;
+      }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+
+      /* Blink on fill-opacity so a SMIL `set` on `opacity` can still retire the caret. */
+      .caret { fill: #F2EFE8; animation: blink 1.15s steps(1, end) infinite; }
+      @keyframes blink { 0%, 55% { fill-opacity: 1; } 56%, 100% { fill-opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- Card -->
+  <rect x="1" y="1" width="878" height="474" rx="7" fill="url(#vignette)" />
+  <rect class="frame" x="1" y="1" width="878" height="474" rx="7" />
+  <!-- Inner hairline: the double rule you get on engraved letterhead -->
+  <rect class="fade d-chrome" x="9" y="9" width="862" height="458" rx="4" fill="none" stroke="#1D1C1A" stroke-width="1" />
+
+  <!-- Title bar -->
+  <g class="fade d-chrome">
+    <line x1="9" y1="38" x2="871" y2="38" stroke="#1D1C1A" stroke-width="1" />
+    <circle cx="26" cy="23" r="4.5" fill="none" stroke="#4A4844" />
+    <circle cx="42" cy="23" r="4.5" fill="none" stroke="#4A4844" />
+    <circle cx="58" cy="23" r="4.5" fill="none" stroke="#4A4844" />
+    <text class="serif dim" x="440" y="27" font-size="11.5" letter-spacing="3.4" text-anchor="middle">
+      MATTHEW PARK — zsh
+    </text>
+  </g>
+
+  <!-- Command line -->
+  <g class="fade d-prompt">
+    <text class="dim" x="40" y="75" font-size="15">matthew@earth ~ %</text>
+  </g>
+  <g clip-path="url(#typeCmd)">
+    <text class="ink" x="205" y="75" font-size="15" font-weight="600">npm run dev</text>
+  </g>
+  <rect class="caret" y="61" width="9" height="17" x="205">
+    <animate
+      attributeName="x"
+      dur="0.99s" begin="1.25s"
+      calcMode="discrete"
+      values="205;214;223;232;241;250;259;268;277;286;295;304"
+      keyTimes="0;0.083;0.167;0.25;0.333;0.417;0.5;0.583;0.667;0.75;0.833;1"
+      fill="freeze"
+    />
+    <set attributeName="opacity" to="0" begin="2.35s" />
+  </rect>
+
+  <!-- Boot output -->
+  <text class="fade d-out1 dim" x="40" y="107" font-size="14.5">
+    <tspan class="faint">▸</tspan> compiling life.tsx <tspan class="faint">···························</tspan><tspan class="ink" x="470">done</tspan>
+  </text>
+  <text class="fade d-out2 dim" x="40" y="133" font-size="14.5">
+    <tspan class="faint">▸</tspan> 30M+ views · 75K+ followers <tspan class="faint">··················</tspan><tspan class="ink" x="470">cached</tspan>
+  </text>
+  <text class="fade d-out3 dim" x="40" y="159" font-size="14.5">
+    <tspan class="faint">▸</tspan> 25+ repos shipped in public <tspan class="faint">··················</tspan><tspan class="ink" x="470">ok</tspan>
+  </text>
+  <text class="fade d-ready ink" x="40" y="189" font-size="15">
+    <tspan class="dim">✓</tspan> ready in 0.4s <tspan class="faint">— started at 15, waited for nobody</tspan>
+  </text>
+  <text class="fade d-local dim" x="40" y="213" font-size="14.5">
+    local: <tspan class="ink">https://matthewnpark.com</tspan>
+  </text>
+
+  <!-- Rule -->
+  <g clip-path="url(#ruleWipe)">
+    <line x1="40" y1="240" x2="840" y2="240" stroke="#2B2926" stroke-width="1" />
+  </g>
+
+  <text class="fade d-label serif faint" x="40" y="270" font-size="11" letter-spacing="3.2">A V A I L A B L E &#160; C O M M A N D S</text>
+
+  <!-- Menu -->
+  <g font-size="14.5">
+    <text class="fade d-cmd1" x="40" y="302">
+      <tspan class="ink" font-weight="600">./about</tspan><tspan class="dim" x="190">who i am, and why i never asked permission</tspan>
+    </text>
+    <text class="fade d-cmd2" x="40" y="328">
+      <tspan class="ink" font-weight="600">./building</tspan><tspan class="dim" x="190">axiom pathways · baseline · bery · dram</tspan>
+    </text>
+    <text class="fade d-cmd3" x="40" y="354">
+      <tspan class="ink" font-weight="600">./socials</tspan><tspan class="dim" x="190">30M+ views, 75K+ followers, always recording</tspan>
+    </text>
+    <text class="fade d-cmd4" x="40" y="380">
+      <tspan class="ink" font-weight="600">./writing</tspan><tspan class="dim" x="190">what actually happened, not the highlight reel</tspan>
+    </text>
+    <text class="fade d-cmd5" x="40" y="406">
+      <tspan class="ink" font-weight="600">./contact</tspan><tspan class="dim" x="190">open to collaborating — come find me</tspan>
+    </text>
+  </g>
+
+  <!-- Waiting prompt -->
+  <g class="fade d-tail">
+    <text class="dim" x="40" y="443" font-size="15">matthew@earth ~ %</text>
+    <rect class="caret" x="205" y="429" width="9" height="17" />
+    <text class="faint" x="234" y="443" font-size="13.5">run one below ▾</text>
+  </g>
+</svg>
