@@ -5,12 +5,12 @@
 </div>
 
 <p align="center"><i>
-I'm 15. I started building before I was old enough to have a job.<br/>
-The plan was never to wait — not for permission, not for a degree, not for someone to call me qualified.<br/>
-So I built an audience, then a nonprofit, then the tools I wished existed, and I shipped every one of them in public.<br/>
-Most people optimize for looking ready. I optimized for reps.<br/>
-30M+ views later, the only thing that ever compounded was showing up on the days nobody was watching.<br/>
-Build loud. Ship ugly. Fix it live.
+I'm 15 and I started building before I was old enough to have a job lol.<br/>
+The plan was never to wait, not for permission, not for a degree, not for someone to call me qualified, not even for my parents (I was a TINY bit reblious)<br/>
+So I built an audience, then a nonprofit, then the tools I wished existed, and I shipped every one of them in public. I'm not afraid of the camera, in fact I shine for it.<br/>
+Most people optimize for looking ready. I optimized for reps, doing things, asking "why not" instead of "why" <br/>
+30M+ views + 75k followers later, the only thing that ever compounded was showing up on the days nobody was watching, but I always record my life because you never know when something will happen. <br/>
+Build loud. Ship unready, not ugly. Fix it live, and show AUTHENTICITY. 
 </i></p>
 
 <p align="center">
