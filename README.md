@@ -18,6 +18,21 @@ So I built an audience, then a nonprofit, then the tools I wished existed. I shi
 
 <br/>
 
+## Recently pushed
+
+<sub>My four most recently pushed public repos — auto-updated daily.</sub>
+
+<!-- RECENT:START -->
+| | |
+|---|---|
+| [**claudeaiagentreminderguy**](https://github.com/mattypark/claudeaiagentreminderguy) |  <sub>Lua</sub> |
+| [**applenotesaiagent**](https://github.com/mattypark/applenotesaiagent) |  <sub>Python</sub> |
+| [**bbtestingwithdillon**](https://github.com/mattypark/bbtestingwithdillon) |  <sub>TypeScript</sub> |
+| [**bouncebackswebsiteee**](https://github.com/mattypark/bouncebackswebsiteee) | The site for BounceBack, a recycled pickleball brand. <sub>TypeScript</sub> |
+<!-- RECENT:END -->
+
+<br/>
+
 ## Selected work
 
 | | |
@@ -40,9 +55,11 @@ So I built an audience, then a nonprofit, then the tools I wished existed. I shi
 
 <img src="assets/rhythm.svg" width="100%" alt="When I commit: a 7-day by 24-hour matrix of push activity. Busiest hour is midnight; 33% of pushes land between 10pm and 3am." />
 
+<img src="assets/activity.svg" width="100%" alt="Activity mix over the last 12 months as a four-axis radar: commits, pull requests, code review, and issues." />
+
 </div>
 
-<sub>Both cards are generated from live GitHub data by [a scheduled Action](.github/workflows/stats.yml) and committed into this repo — no third-party service to go down.</sub>
+<sub>These cards are generated from live GitHub data by [a scheduled Action](.github/workflows/stats.yml) and committed into this repo — no third-party service to go down.</sub>
 
 <br/>
 

@@ -50,6 +50,22 @@ async function gh(path) {
   return res.json();
 }
 
+/** GraphQL is the only source for the contribution mix (commits/reviews/issues/PRs). */
+async function ghGraphQL(query, variables) {
+  const headers = { 'User-Agent': `${USER}-profile-stats`, 'Content-Type': 'application/json' };
+  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+
+  const res = await fetch('https://api.github.com/graphql', {
+    method: 'POST',
+    headers,
+    body: JSON.stringify({ query, variables }),
+  });
+  if (!res.ok) throw new Error(`GitHub GraphQL ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  const json = await res.json();
+  if (json.errors) throw new Error(`GraphQL: ${JSON.stringify(json.errors).slice(0, 200)}`);
+  return json.data;
+}
+
 /** Everything the cards need, flattened — so a snapshot can stand in for the API. */
 async function collect() {
   const profile = await gh(`/users/${USER}`);
@@ -96,6 +112,43 @@ async function collect() {
 
   const lateNight = [22, 23, 0, 1, 2].reduce((sum, h) => sum + hours[h], 0);
 
+  // Four most recently pushed PUBLIC repos. Exclude forks, archived, and the
+  // profile repo itself — the daily stats commit would otherwise pin it at #1.
+  const recent = original
+    .filter((r) => !r.private && !r.archived && r.name.toLowerCase() !== USER.toLowerCase())
+    .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
+    .slice(0, 4)
+    .map((r) => ({
+      name: r.name,
+      description: r.description || '',
+      language: r.language || '',
+      pushedAt: r.pushed_at,
+      url: r.html_url,
+    }));
+
+  // Contribution mix for the activity radar (past 12 months). Needs a token.
+  let activity = null;
+  try {
+    const data = await ghGraphQL(
+      `query($login:String!){ user(login:$login){ contributionsCollection{
+        totalCommitContributions
+        totalPullRequestReviewContributions
+        totalIssueContributions
+        totalPullRequestContributions
+      } } }`,
+      { login: USER }
+    );
+    const c = data.user.contributionsCollection;
+    activity = {
+      commits: c.totalCommitContributions,
+      codeReview: c.totalPullRequestReviewContributions,
+      issues: c.totalIssueContributions,
+      pullRequests: c.totalPullRequestContributions,
+    };
+  } catch (err) {
+    console.warn(`activity radar skipped: ${err.message}`);
+  }
+
   return {
     generatedAt: new Date().toISOString(),
     followers: profile.followers,
@@ -107,6 +160,8 @@ async function collect() {
     pushCount: pushes.length,
     peakHour: hours.indexOf(Math.max(...hours)),
     lateShare: pushes.length ? Math.round((lateNight / pushes.length) * 100) : 0,
+    recent,
+    activity,
   };
 }
 
@@ -289,6 +344,84 @@ ${rows}
   return shell(W, H, label, body);
 }
 
+/** Contribution mix as a four-axis radar, in the house monochrome (not the native green). */
+function activityCard(s) {
+  const W = 880;
+  const H = 330;
+  const a = s.activity;
+
+  const total = a.commits + a.codeReview + a.issues + a.pullRequests || 1;
+  const pct = (v) => Math.round((v / total) * 100);
+  const maxV = Math.max(a.commits, a.codeReview, a.issues, a.pullRequests, 1);
+
+  const cx = 250;
+  const cy = 200;
+  const R = 78;
+  const reach = (v) => (v / maxV) * R;
+
+  const top = [cx, cy - reach(a.codeReview)]; // Code review
+  const right = [cx + reach(a.issues), cy]; //    Issues
+  const bottom = [cx, cy + reach(a.pullRequests)]; // Pull requests
+  const left = [cx - reach(a.commits), cy]; //    Commits
+  const poly = [top, right, bottom, left].map((p) => `${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
+  const dots = [top, right, bottom, left]
+    .map((p) => `<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="3" fill="${INK}" />`)
+    .join('\n    ');
+
+  const numbers = [
+    [a.commits, 'commits'],
+    [a.pullRequests, 'pull requests'],
+    [a.codeReview, 'reviews'],
+    [a.issues, 'issues'],
+  ]
+    .map(([value, label], i) => {
+      const y = 112 + i * 48;
+      return `
+    <g class="rise" style="animation-delay:${(1.1 + i * 0.1).toFixed(2)}s">
+      <text class="ink serif" x="620" y="${y}" font-size="30">${value}</text>
+      <text class="dim" x="700" y="${y}" font-size="13">${esc(label)}</text>
+      <line x1="620" y1="${y + 14}" x2="840" y2="${y + 14}" stroke="${HAIR}" />
+    </g>`;
+    })
+    .join('');
+
+  const body = `
+  <text class="serif faint rise" x="40" y="44" font-size="11" letter-spacing="3.2" style="animation-delay:.45s">${spaced('ACTIVITY')}</text>
+  <text class="dim rise" x="40" y="68" font-size="12.5" style="animation-delay:.5s">contribution mix · last 12 months</text>
+  <line x1="40" y1="86" x2="840" y2="86" stroke="${HAIR}" />
+  <g class="rise" style="animation-delay:.85s">
+    <circle cx="${cx}" cy="${cy}" r="${R}" fill="none" stroke="${HAIR}" stroke-dasharray="2 4" />
+    <line x1="${cx}" y1="${cy - R}" x2="${cx}" y2="${cy + R}" stroke="${FAINT}" />
+    <line x1="${cx - R}" y1="${cy}" x2="${cx + R}" y2="${cy}" stroke="${FAINT}" />
+    <polygon points="${poly}" fill="${INK}" fill-opacity="0.14" stroke="${INK}" stroke-width="1.5" stroke-linejoin="round" />
+    ${dots}
+    <text class="dim" x="${cx}" y="${cy - R - 24}" font-size="12" text-anchor="middle">Code review</text>
+    <text class="ink serif" x="${cx}" y="${cy - R - 7}" font-size="15" text-anchor="middle">${pct(a.codeReview)}%</text>
+    <text class="dim" x="${cx + R + 14}" y="${cy - 3}" font-size="12">Issues</text>
+    <text class="ink serif" x="${cx + R + 14}" y="${cy + 16}" font-size="15">${pct(a.issues)}%</text>
+    <text class="dim" x="${cx}" y="${cy + R + 22}" font-size="12" text-anchor="middle">Pull requests</text>
+    <text class="ink serif" x="${cx}" y="${cy + R + 40}" font-size="15" text-anchor="middle">${pct(a.pullRequests)}%</text>
+    <text class="dim" x="${cx - R - 14}" y="${cy - 3}" font-size="12" text-anchor="end">Commits</text>
+    <text class="ink serif" x="${cx - R - 14}" y="${cy + 16}" font-size="15" text-anchor="end">${pct(a.commits)}%</text>
+  </g>
+${numbers}`;
+
+  const label = `Activity mix, last 12 months: commits ${pct(a.commits)}%, pull requests ${pct(a.pullRequests)}%, code review ${pct(a.codeReview)}%, issues ${pct(a.issues)}%.`;
+  return shell(W, H, label, body);
+}
+
+/** Markdown table of the recent repos, injected into the README between markers. */
+function recentBlock(s) {
+  const rows = s.recent
+    .map((r) => {
+      const desc = r.description ? esc(r.description) : '';
+      const lang = r.language ? ` <sub>${esc(r.language)}</sub>` : '';
+      return `| [**${esc(r.name)}**](${r.url}) | ${desc}${lang} |`;
+    })
+    .join('\n');
+  return `| | |\n|---|---|\n${rows}`;
+}
+
 // --- run ---------------------------------------------------------------------
 
 const useCache = process.argv.includes('--cached');
@@ -309,3 +442,25 @@ writeFileSync(`${OUT}/rhythm.svg`, rhythmCard(snapshot));
 
 console.log(`languages.svg — ${Object.keys(snapshot.bytes).length} languages, ${snapshot.originalRepos} original repos`);
 console.log(`rhythm.svg    — ${snapshot.pushCount} pushes, peak ${hourLabel(snapshot.peakHour)}, ${snapshot.lateShare}% late-night`);
+
+if (snapshot.activity) {
+  writeFileSync(`${OUT}/activity.svg`, activityCard(snapshot));
+  const a = snapshot.activity;
+  console.log(`activity.svg  — commits ${a.commits}, PRs ${a.pullRequests}, reviews ${a.codeReview}, issues ${a.issues}`);
+} else {
+  console.log('activity.svg  — skipped (no token / no contribution data)');
+}
+
+// Inject the "recently pushed" table into the README between markers.
+const README = 'README.md';
+if (existsSync(README) && snapshot.recent?.length) {
+  const md = readFileSync(README, 'utf8');
+  const next = md.replace(
+    /<!-- RECENT:START -->[\s\S]*?<!-- RECENT:END -->/,
+    `<!-- RECENT:START -->\n${recentBlock(snapshot)}\n<!-- RECENT:END -->`
+  );
+  if (next !== md) {
+    writeFileSync(README, next);
+    console.log(`README        — recent block updated (${snapshot.recent.map((r) => r.name).join(', ')})`);
+  }
+}

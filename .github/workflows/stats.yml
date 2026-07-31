@@ -41,6 +41,6 @@ jobs:
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add assets/languages.svg assets/rhythm.svg assets/stats-data.json
+          git add assets/languages.svg assets/rhythm.svg assets/activity.svg assets/stats-data.json README.md
           git diff --staged --quiet || git commit -m 'chore: refresh profile stats'
           git push

@@ -1,17 +1,18 @@
 {
-  "generatedAt": "2026-07-31T09:20:16.087Z",
-  "followers": 12,
-  "publicRepos": 68,
-  "originalRepos": 50,
+  "generatedAt": "2026-07-31T22:49:48.825Z",
+  "followers": 14,
+  "publicRepos": 70,
+  "originalRepos": 52,
   "bytes": {
+    "Python": 226300,
+    "Shell": 50297,
     "Astro": 157983,
-    "CSS": 377345,
-    "JavaScript": 955921,
-    "HTML": 2006702,
-    "TypeScript": 2901392,
+    "CSS": 381258,
+    "JavaScript": 956480,
+    "HTML": 2127569,
+    "TypeScript": 3138869,
     "SCSS": 4661,
-    "Python": 173559,
-    "Shell": 37008,
+    "Lua": 38325,
     "PLpgSQL": 11183,
     "Dockerfile": 915,
     "Swift": 337800,
@@ -138,10 +139,10 @@
       0,
       0,
       0,
-      0,
-      2,
-      8,
-      8,
+      3,
+      5,
+      9,
+      11,
       7,
       0,
       0,
@@ -217,10 +218,10 @@
     1,
     1,
     0,
-    0,
-    4,
-    10,
-    10,
+    3,
+    7,
+    11,
+    13,
     8,
     0,
     6,
@@ -228,7 +229,43 @@
     3,
     4
   ],
-  "pushCount": 93,
-  "peakHour": 0,
-  "lateShare": 23
+  "pushCount": 103,
+  "peakHour": 17,
+  "lateShare": 20,
+  "recent": [
+    {
+      "name": "claudeaiagentreminderguy",
+      "description": "",
+      "language": "Lua",
+      "pushedAt": "2026-07-31T21:33:49Z",
+      "url": "https://github.com/mattypark/claudeaiagentreminderguy"
+    },
+    {
+      "name": "applenotesaiagent",
+      "description": "",
+      "language": "Python",
+      "pushedAt": "2026-07-31T21:08:52Z",
+      "url": "https://github.com/mattypark/applenotesaiagent"
+    },
+    {
+      "name": "bbtestingwithdillon",
+      "description": "",
+      "language": "TypeScript",
+      "pushedAt": "2026-07-31T19:24:59Z",
+      "url": "https://github.com/mattypark/bbtestingwithdillon"
+    },
+    {
+      "name": "bouncebackswebsiteee",
+      "description": "The site for BounceBack, a recycled pickleball brand.",
+      "language": "TypeScript",
+      "pushedAt": "2026-07-31T19:04:43Z",
+      "url": "https://github.com/mattypark/bouncebackswebsiteee"
+    }
+  ],
+  "activity": {
+    "commits": 552,
+    "codeReview": 0,
+    "issues": 1,
+    "pullRequests": 0
+  }
 }
