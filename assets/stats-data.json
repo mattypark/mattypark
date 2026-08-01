@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-07-31T22:50:38.501Z",
-  "followers": 14,
+  "generatedAt": "2026-08-01T08:36:15.870Z",
+  "followers": 19,
   "publicRepos": 70,
   "originalRepos": 52,
   "bytes": {
     "Python": 226300,
-    "Shell": 50297,
+    "Shell": 50930,
     "Astro": 157983,
     "CSS": 381258,
     "JavaScript": 963270,
     "HTML": 2127569,
     "TypeScript": 3138869,
     "SCSS": 4661,
-    "Lua": 38325,
+    "Lua": 39432,
     "PLpgSQL": 11183,
     "Dockerfile": 915,
     "Swift": 337800,
@@ -144,7 +144,7 @@
       9,
       11,
       8,
-      0,
+      2,
       0,
       0,
       1,
@@ -223,13 +223,13 @@
     11,
     13,
     9,
-    0,
+    2,
     6,
     3,
     3,
     4
   ],
-  "pushCount": 104,
+  "pushCount": 106,
   "peakHour": 17,
   "lateShare": 20,
   "recent": [
@@ -237,7 +237,7 @@
       "name": "claudeaiagentreminderguy",
       "description": "",
       "language": "Lua",
-      "pushedAt": "2026-07-31T21:33:49Z",
+      "pushedAt": "2026-07-31T23:04:39Z",
       "url": "https://github.com/mattypark/claudeaiagentreminderguy"
     },
     {
@@ -263,7 +263,7 @@
     }
   ],
   "activity": {
-    "commits": 553,
+    "commits": 555,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
