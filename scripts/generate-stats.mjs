@@ -410,18 +410,6 @@ ${numbers}`;
   return shell(W, H, label, body);
 }
 
-/** Markdown table of the recent repos, injected into the README between markers. */
-function recentBlock(s) {
-  const rows = s.recent
-    .map((r) => {
-      const desc = r.description ? esc(r.description) : '';
-      const lang = r.language ? ` <sub>${esc(r.language)}</sub>` : '';
-      return `| [**${esc(r.name)}**](${r.url}) | ${desc}${lang} |`;
-    })
-    .join('\n');
-  return `| | |\n|---|---|\n${rows}`;
-}
-
 // --- run ---------------------------------------------------------------------
 
 const useCache = process.argv.includes('--cached');
@@ -449,18 +437,4 @@ if (snapshot.activity) {
   console.log(`activity.svg  — commits ${a.commits}, PRs ${a.pullRequests}, reviews ${a.codeReview}, issues ${a.issues}`);
 } else {
   console.log('activity.svg  — skipped (no token / no contribution data)');
-}
-
-// Inject the "recently pushed" table into the README between markers.
-const README = 'README.md';
-if (existsSync(README) && snapshot.recent?.length) {
-  const md = readFileSync(README, 'utf8');
-  const next = md.replace(
-    /<!-- RECENT:START -->[\s\S]*?<!-- RECENT:END -->/,
-    `<!-- RECENT:START -->\n${recentBlock(snapshot)}\n<!-- RECENT:END -->`
-  );
-  if (next !== md) {
-    writeFileSync(README, next);
-    console.log(`README        — recent block updated (${snapshot.recent.map((r) => r.name).join(', ')})`);
-  }
 }

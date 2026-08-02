@@ -18,21 +18,6 @@ So I built an audience, then a nonprofit, then the tools I wished existed. I shi
 
 <br/>
 
-## Recently pushed
-
-<sub>My four most recently pushed public repos — auto-updated daily.</sub>
-
-<!-- RECENT:START -->
-| | |
-|---|---|
-| [**jacksonswebsite**](https://github.com/mattypark/jacksonswebsite) | A handwritten-journal portfolio site for Jackson Sword. <sub>JavaScript</sub> |
-| [**Claudemacbooktoiphone**](https://github.com/mattypark/Claudemacbooktoiphone) |  <sub>Shell</sub> |
-| [**claudeaiagentreminderguy**](https://github.com/mattypark/claudeaiagentreminderguy) |  <sub>Lua</sub> |
-| [**bbtestingwithdillon**](https://github.com/mattypark/bbtestingwithdillon) |  <sub>TypeScript</sub> |
-<!-- RECENT:END -->
-
-<br/>
-
 ## Selected work
 
 | | |
