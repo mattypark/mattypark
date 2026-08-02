@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-01T08:36:15.870Z",
-  "followers": 19,
+  "generatedAt": "2026-08-02T08:39:26.603Z",
+  "followers": 22,
   "publicRepos": 70,
   "originalRepos": 52,
   "bytes": {
-    "Python": 226300,
-    "Shell": 50930,
     "Astro": 157983,
-    "CSS": 381258,
-    "JavaScript": 963270,
-    "HTML": 2127569,
+    "CSS": 381918,
+    "JavaScript": 989217,
+    "HTML": 2127825,
     "TypeScript": 3138869,
     "SCSS": 4661,
-    "Lua": 39432,
+    "Lua": 44843,
+    "Shell": 57054,
+    "Python": 173559,
     "PLpgSQL": 11183,
     "Dockerfile": 915,
     "Swift": 337800,
@@ -139,10 +139,10 @@
       0,
       0,
       0,
-      3,
+      2,
       5,
       9,
-      11,
+      10,
       8,
       2,
       0,
@@ -165,13 +165,13 @@
       1,
       0,
       0,
+      1,
       0,
       0,
       0,
       0,
       0,
-      0,
-      0,
+      3,
       0,
       0,
       2
@@ -221,31 +221,38 @@
     3,
     7,
     11,
-    13,
+    12,
     9,
     2,
-    6,
+    9,
     3,
     3,
     4
   ],
-  "pushCount": 106,
+  "pushCount": 108,
   "peakHour": 17,
-  "lateShare": 20,
+  "lateShare": 19,
   "recent": [
+    {
+      "name": "jacksonswebsite",
+      "description": "A handwritten-journal portfolio site for Jackson Sword.",
+      "language": "JavaScript",
+      "pushedAt": "2026-08-02T00:56:25Z",
+      "url": "https://github.com/mattypark/jacksonswebsite"
+    },
+    {
+      "name": "Claudemacbooktoiphone",
+      "description": "",
+      "language": "Shell",
+      "pushedAt": "2026-08-01T22:45:12Z",
+      "url": "https://github.com/mattypark/Claudemacbooktoiphone"
+    },
     {
       "name": "claudeaiagentreminderguy",
       "description": "",
       "language": "Lua",
-      "pushedAt": "2026-07-31T23:04:39Z",
+      "pushedAt": "2026-08-01T18:46:34Z",
       "url": "https://github.com/mattypark/claudeaiagentreminderguy"
-    },
-    {
-      "name": "applenotesaiagent",
-      "description": "",
-      "language": "Python",
-      "pushedAt": "2026-07-31T21:08:52Z",
-      "url": "https://github.com/mattypark/applenotesaiagent"
     },
     {
       "name": "bbtestingwithdillon",
@@ -253,17 +260,10 @@
       "language": "TypeScript",
       "pushedAt": "2026-07-31T19:24:59Z",
       "url": "https://github.com/mattypark/bbtestingwithdillon"
-    },
-    {
-      "name": "bouncebackswebsiteee",
-      "description": "The site for BounceBack, a recycled pickleball brand.",
-      "language": "TypeScript",
-      "pushedAt": "2026-07-31T19:04:43Z",
-      "url": "https://github.com/mattypark/bouncebackswebsiteee"
     }
   ],
   "activity": {
-    "commits": 555,
+    "commits": 557,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
