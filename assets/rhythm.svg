@@ -178,7 +178,7 @@
       <rect class="rise" x="190" y="267" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:0.94s" />
       <rect class="rise" x="219" y="267" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:0.96s" />
       <rect class="rise" x="248" y="267" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:0.98s" />
-      <rect class="rise" x="277" y="267" width="21" height="21" rx="2" fill="#F2EFE8" fill-opacity="0.51" style="animation-delay:1.00s"><title>SAT 07:00 — 3 pushes</title></rect>
+      <rect class="rise" x="277" y="267" width="21" height="21" rx="2" fill="#F2EFE8" fill-opacity="0.37" style="animation-delay:1.00s"><title>SAT 07:00 — 1 push</title></rect>
       <rect class="rise" x="306" y="267" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:1.03s" />
       <rect class="rise" x="335" y="267" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:1.05s" />
       <rect class="rise" x="364" y="267" width="21" height="21" rx="2" fill="#F2EFE8" fill-opacity="0.37" style="animation-delay:1.07s"><title>SAT 10:00 — 1 push</title></rect>
@@ -213,9 +213,9 @@
       <rect class="rise" x="422" y="296" width="21" height="21" rx="2" fill="#F2EFE8" fill-opacity="0.37" style="animation-delay:1.14s"><title>SUN 12:00 — 1 push</title></rect>
       <rect class="rise" x="451" y="296" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:1.17s" />
       <rect class="rise" x="480" y="296" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:1.19s" />
-      <rect class="rise" x="509" y="296" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:1.21s" />
+      <rect class="rise" x="509" y="296" width="21" height="21" rx="2" fill="#F2EFE8" fill-opacity="0.37" style="animation-delay:1.21s"><title>SUN 15:00 — 1 push</title></rect>
       <rect class="rise" x="538" y="296" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:1.23s" />
-      <rect class="rise" x="567" y="296" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:1.25s" />
+      <rect class="rise" x="567" y="296" width="21" height="21" rx="2" fill="#F2EFE8" fill-opacity="0.37" style="animation-delay:1.25s"><title>SUN 17:00 — 1 push</title></rect>
       <rect class="rise" x="596" y="296" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:1.28s" />
       <rect class="rise" x="625" y="296" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:1.30s" />
       <rect class="rise" x="654" y="296" width="21" height="21" rx="2" fill="none" stroke="#413F3B" style="animation-delay:1.32s" />
