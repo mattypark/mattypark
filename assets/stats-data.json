@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-08-04T09:13:33.573Z",
-  "followers": 25,
+  "generatedAt": "2026-08-05T09:10:41.222Z",
+  "followers": 24,
   "publicRepos": 78,
   "originalRepos": 60,
   "bytes": {
-    "TypeScript": 3769131,
-    "CSS": 503339,
+    "TypeScript": 3770585,
+    "CSS": 503784,
     "JavaScript": 1044538,
     "HTML": 2345670,
     "PLpgSQL": 35983,
     "SCSS": 4661,
-    "Lua": 207455,
+    "Lua": 224806,
     "Shell": 70120,
     "Swift": 350708,
     "Python": 173559,
     "Dockerfile": 915,
-    "Astro": 100504,
+    "Astro": 101769,
     "Java": 1294,
     "Luau": 63591,
     "Procfile": 27
@@ -58,7 +58,7 @@
       0,
       0,
       0,
-      0,
+      2,
       0,
       0,
       0,
@@ -144,7 +144,7 @@
       4,
       9,
       10,
-      8,
+      7,
       2,
       0,
       0,
@@ -215,7 +215,7 @@
     0,
     0,
     8,
-    2,
+    4,
     1,
     1,
     0,
@@ -223,48 +223,48 @@
     5,
     9,
     17,
-    19,
+    18,
     5,
     3,
     2,
     3,
     0
   ],
-  "pushCount": 79,
+  "pushCount": 80,
   "peakHour": 18,
   "lateShare": 4,
   "recent": [
+    {
+      "name": "Frank-s-website",
+      "description": "A personal site for Frank Niu, built with Astro.",
+      "language": "Astro",
+      "pushedAt": "2026-08-05T05:30:21Z",
+      "url": "https://github.com/mattypark/Frank-s-website"
+    },
+    {
+      "name": "costpriority",
+      "description": "A desktop pet that ranks your day P0-P3 from your Mac's own calendar. No API keys, no network.",
+      "language": "Lua",
+      "pushedAt": "2026-08-04T14:51:25Z",
+      "url": "https://github.com/mattypark/costpriority"
+    },
+    {
+      "name": "AxiomApply",
+      "description": "The Axiom Pathways site with a 3-step application form.",
+      "language": "TypeScript",
+      "pushedAt": "2026-08-04T14:18:41Z",
+      "url": "https://github.com/mattypark/AxiomApply"
+    },
     {
       "name": "robloxsmashgame",
       "description": "",
       "language": "Luau",
       "pushedAt": "2026-08-04T02:21:21Z",
       "url": "https://github.com/mattypark/robloxsmashgame"
-    },
-    {
-      "name": "AxiomApply",
-      "description": "The Axiom Pathways site with a 3-step application form.",
-      "language": "TypeScript",
-      "pushedAt": "2026-08-04T02:16:20Z",
-      "url": "https://github.com/mattypark/AxiomApply"
-    },
-    {
-      "name": "oryzoaicopybest3d",
-      "description": "A study mirror of oryzo.ai's WebGL and GSAP scroll experience.",
-      "language": "HTML",
-      "pushedAt": "2026-08-03T23:37:41Z",
-      "url": "https://github.com/mattypark/oryzoaicopybest3d"
-    },
-    {
-      "name": "fixelcopy",
-      "description": "",
-      "language": "CSS",
-      "pushedAt": "2026-08-03T22:37:02Z",
-      "url": "https://github.com/mattypark/fixelcopy"
     }
   ],
   "activity": {
-    "commits": 605,
+    "commits": 608,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0

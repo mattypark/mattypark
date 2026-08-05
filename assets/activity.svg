@@ -48,7 +48,7 @@
   </g>
 
     <g class="rise" style="animation-delay:1.10s">
-      <text class="ink serif" x="620" y="112" font-size="30">605</text>
+      <text class="ink serif" x="620" y="112" font-size="30">608</text>
       <text class="dim" x="700" y="112" font-size="13">commits</text>
       <line x1="620" y1="126" x2="840" y2="126" stroke="#2B2926" />
     </g>
