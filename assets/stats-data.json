@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-06T09:11:08.763Z",
+  "generatedAt": "2026-08-07T07:46:13.942Z",
   "followers": 24,
   "publicRepos": 79,
   "originalRepos": 61,
   "bytes": {
-    "TypeScript": 3992561,
-    "CSS": 527367,
-    "JavaScript": 1110670,
+    "TypeScript": 4013965,
+    "CSS": 520672,
+    "JavaScript": 1127574,
     "HTML": 2345670,
     "PLpgSQL": 40623,
     "SCSS": 4661,
@@ -120,8 +120,8 @@
       0,
       0,
       0,
-      0,
-      0,
+      3,
+      1,
       0,
       0
     ],
@@ -142,8 +142,8 @@
       0,
       2,
       3,
-      3,
-      10,
+      1,
+      8,
       6,
       2,
       0,
@@ -221,25 +221,32 @@
     4,
     4,
     4,
-    3,
-    17,
+    1,
+    15,
     17,
     5,
+    6,
     3,
-    2,
     3,
     0
   ],
   "pushCount": 81,
-  "peakHour": 17,
+  "peakHour": 18,
   "lateShare": 4,
   "recent": [
     {
       "name": "language-talking-game",
       "description": "",
       "language": "TypeScript",
-      "pushedAt": "2026-08-05T17:19:14Z",
+      "pushedAt": "2026-08-07T01:39:46Z",
       "url": "https://github.com/mattypark/language-talking-game"
+    },
+    {
+      "name": "AxiomApply",
+      "description": "The Axiom Pathways site with a 3-step application form.",
+      "language": "TypeScript",
+      "pushedAt": "2026-08-07T00:34:34Z",
+      "url": "https://github.com/mattypark/AxiomApply"
     },
     {
       "name": "Frank-s-website",
@@ -254,17 +261,10 @@
       "language": "Lua",
       "pushedAt": "2026-08-04T14:51:25Z",
       "url": "https://github.com/mattypark/costpriority"
-    },
-    {
-      "name": "AxiomApply",
-      "description": "The Axiom Pathways site with a 3-step application form.",
-      "language": "TypeScript",
-      "pushedAt": "2026-08-04T14:18:41Z",
-      "url": "https://github.com/mattypark/AxiomApply"
     }
   ],
   "activity": {
-    "commits": 618,
+    "commits": 622,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
