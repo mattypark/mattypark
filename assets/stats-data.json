@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-07T07:46:13.942Z",
-  "followers": 24,
+  "generatedAt": "2026-08-08T07:19:38.644Z",
+  "followers": 25,
   "publicRepos": 79,
   "originalRepos": 61,
   "bytes": {
-    "TypeScript": 4013965,
-    "CSS": 520672,
+    "TypeScript": 4029482,
+    "CSS": 520923,
     "JavaScript": 1127574,
     "HTML": 2345670,
     "PLpgSQL": 40623,
@@ -142,8 +142,8 @@
       0,
       2,
       3,
-      1,
-      8,
+      2,
+      7,
       6,
       2,
       0,
@@ -221,8 +221,8 @@
     4,
     4,
     4,
-    1,
-    15,
+    2,
+    14,
     17,
     5,
     6,
@@ -238,7 +238,7 @@
       "name": "language-talking-game",
       "description": "",
       "language": "TypeScript",
-      "pushedAt": "2026-08-07T01:39:46Z",
+      "pushedAt": "2026-08-07T20:24:45Z",
       "url": "https://github.com/mattypark/language-talking-game"
     },
     {
@@ -264,7 +264,7 @@
     }
   ],
   "activity": {
-    "commits": 622,
+    "commits": 623,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
