@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-09T07:26:13.459Z",
+  "generatedAt": "2026-08-10T08:08:35.257Z",
   "followers": 24,
   "publicRepos": 81,
   "originalRepos": 63,
   "bytes": {
-    "TypeScript": 4036956,
+    "TypeScript": 4042876,
     "CSS": 526598,
     "JavaScript": 1174251,
     "HTML": 2773136,
     "PLpgSQL": 40623,
     "SCSS": 4661,
-    "Lua": 249403,
+    "Lua": 250852,
     "Shell": 70120,
     "Swift": 350708,
     "Python": 176853,
@@ -144,7 +144,7 @@
       3,
       2,
       2,
-      3,
+      1,
       2,
       0,
       0,
@@ -188,7 +188,7 @@
       0,
       0,
       8,
-      2,
+      3,
       0,
       1,
       0,
@@ -197,7 +197,7 @@
       0,
       1,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -215,7 +215,7 @@
     0,
     0,
     8,
-    4,
+    5,
     1,
     6,
     4,
@@ -223,8 +223,8 @@
     4,
     2,
     9,
-    19,
-    5,
+    17,
+    6,
     6,
     3,
     3,
@@ -238,8 +238,15 @@
       "name": "mochi",
       "description": "substack",
       "language": "Lua",
-      "pushedAt": "2026-08-08T22:52:02Z",
+      "pushedAt": "2026-08-09T23:52:20Z",
       "url": "https://github.com/mattypark/mochi"
+    },
+    {
+      "name": "AxiomApply",
+      "description": "The Axiom Pathways site with a 3-step application form.",
+      "language": "TypeScript",
+      "pushedAt": "2026-08-09T14:19:03Z",
+      "url": "https://github.com/mattypark/AxiomApply"
     },
     {
       "name": "language-talking-game",
@@ -254,17 +261,10 @@
       "language": "HTML",
       "pushedAt": "2026-08-08T22:19:05Z",
       "url": "https://github.com/mattypark/substack"
-    },
-    {
-      "name": "AxiomApply",
-      "description": "The Axiom Pathways site with a 3-step application form.",
-      "language": "TypeScript",
-      "pushedAt": "2026-08-07T00:34:34Z",
-      "url": "https://github.com/mattypark/AxiomApply"
     }
   ],
   "activity": {
-    "commits": 633,
+    "commits": 635,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
