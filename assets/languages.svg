@@ -38,7 +38,7 @@
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="193.75 271.20"
+        to="193.92 271.03"
         dur="0.75s" begin="0.55s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -46,12 +46,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#CFCBC2" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-196.25"
+      stroke-dashoffset="-196.42"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="132.12 332.84"
+        to="132.04 332.91"
         dur="0.75s" begin="0.70s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -59,12 +59,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#ACA89F" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-330.87"
+      stroke-dashoffset="-330.97"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="54.50 410.45"
+        to="54.47 410.48"
         dur="0.75s" begin="0.85s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -72,12 +72,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#89857D" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-387.87"
+      stroke-dashoffset="-387.94"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="23.06 441.89"
+        to="23.02 441.93"
         dur="0.75s" begin="1.00s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -85,12 +85,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#66635C" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-413.43"
+      stroke-dashoffset="-413.46"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="14.52 450.43"
+        to="14.52 450.44"
         dur="0.75s" begin="1.15s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -98,12 +98,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#4A4841" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-430.46"
+      stroke-dashoffset="-430.47"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="9.68 455.28"
+        to="9.67 455.29"
         dur="0.75s" begin="1.30s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -111,12 +111,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#333029" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-442.63"
+      stroke-dashoffset="-442.65"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="19.82 445.13"
+        to="19.81 445.15"
         dur="0.75s" begin="1.45s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -131,7 +131,7 @@
     <g class="rise" style="animation-delay:0.99s">
       <rect x="266" y="136" width="10" height="10" fill="#CFCBC2" />
       <text class="ink" x="290" y="145" font-size="14">HTML</text>
-      <text class="dim" x="470" y="145" font-size="14" text-anchor="end">29.0%</text>
+      <text class="dim" x="470" y="145" font-size="14" text-anchor="end">28.9%</text>
     </g>
     <g class="rise" style="animation-delay:1.08s">
       <rect x="266" y="163" width="10" height="10" fill="#ACA89F" />
@@ -175,7 +175,7 @@
       <line x1="560" y1="222" x2="840" y2="222" stroke="#2B2926" />
     </g>
     <g class="rise" style="animation-delay:1.45s">
-      <text class="ink serif" x="560" y="256" font-size="30">79</text>
+      <text class="ink serif" x="560" y="256" font-size="30">82</text>
       <text class="dim" x="648" y="256" font-size="13">pushes · 90d</text>
       <line x1="560" y1="270" x2="840" y2="270" stroke="#2B2926" />
     </g>
