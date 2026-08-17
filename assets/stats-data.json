@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-16T07:03:21.127Z",
-  "followers": 25,
+  "generatedAt": "2026-08-17T07:26:04.336Z",
+  "followers": 26,
   "publicRepos": 83,
   "originalRepos": 65,
   "bytes": {
@@ -15,7 +15,7 @@
     "Swift": 363459,
     "Python": 176853,
     "Dockerfile": 915,
-    "Astro": 114532,
+    "Astro": 114863,
     "Java": 1294,
     "Luau": 63591,
     "Procfile": 27
@@ -141,10 +141,10 @@
       1,
       0,
       2,
-      5,
+      4,
       10,
       10,
-      8,
+      6,
       2,
       0,
       0,
@@ -220,20 +220,27 @@
     14,
     5,
     17,
-    9,
+    8,
     10,
     17,
-    24,
+    22,
     6,
     6,
     3,
     3,
     0
   ],
-  "pushCount": 144,
+  "pushCount": 141,
   "peakHour": 18,
   "lateShare": 2,
   "recent": [
+    {
+      "name": "Frank-s-website",
+      "description": "A personal site for Frank Niu, built with Astro.",
+      "language": "Astro",
+      "pushedAt": "2026-08-17T05:05:03Z",
+      "url": "https://github.com/mattypark/Frank-s-website"
+    },
     {
       "name": "chessuno",
       "description": "",
@@ -254,13 +261,6 @@
       "language": "HTML",
       "pushedAt": "2026-08-15T18:35:41Z",
       "url": "https://github.com/mattypark/AxiomApply"
-    },
-    {
-      "name": "Frank-s-website",
-      "description": "A personal site for Frank Niu, built with Astro.",
-      "language": "Astro",
-      "pushedAt": "2026-08-14T05:53:34Z",
-      "url": "https://github.com/mattypark/Frank-s-website"
     }
   ],
   "activity": {
