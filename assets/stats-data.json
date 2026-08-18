@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-17T07:26:04.336Z",
+  "generatedAt": "2026-08-18T07:08:20.899Z",
   "followers": 26,
   "publicRepos": 83,
   "originalRepos": 65,
   "bytes": {
-    "TypeScript": 4281487,
+    "TypeScript": 4287768,
     "CSS": 569067,
-    "JavaScript": 1437557,
+    "JavaScript": 1441706,
     "HTML": 3300267,
     "PLpgSQL": 40623,
     "SCSS": 4661,
@@ -34,7 +34,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       10,
       2,
@@ -217,7 +217,7 @@
     10,
     12,
     7,
-    14,
+    15,
     5,
     17,
     8,
@@ -230,10 +230,17 @@
     3,
     0
   ],
-  "pushCount": 141,
+  "pushCount": 142,
   "peakHour": 18,
   "lateShare": 2,
   "recent": [
+    {
+      "name": "AxiomApply",
+      "description": "The Axiom Pathways site with a 3-step application form.",
+      "language": "HTML",
+      "pushedAt": "2026-08-17T16:28:30Z",
+      "url": "https://github.com/mattypark/AxiomApply"
+    },
     {
       "name": "Frank-s-website",
       "description": "A personal site for Frank Niu, built with Astro.",
@@ -254,17 +261,10 @@
       "language": "TypeScript",
       "pushedAt": "2026-08-15T18:42:59Z",
       "url": "https://github.com/mattypark/language-talking-game"
-    },
-    {
-      "name": "AxiomApply",
-      "description": "The Axiom Pathways site with a 3-step application form.",
-      "language": "HTML",
-      "pushedAt": "2026-08-15T18:35:41Z",
-      "url": "https://github.com/mattypark/AxiomApply"
     }
   ],
   "activity": {
-    "commits": 686,
+    "commits": 688,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
