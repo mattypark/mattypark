@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-20T07:10:33.477Z",
-  "followers": 26,
-  "publicRepos": 84,
-  "originalRepos": 66,
+  "generatedAt": "2026-08-21T07:11:22.978Z",
+  "followers": 25,
+  "publicRepos": 86,
+  "originalRepos": 68,
   "bytes": {
-    "TypeScript": 4378117,
-    "CSS": 572295,
-    "JavaScript": 1471321,
+    "TypeScript": 4470032,
+    "CSS": 579664,
+    "JavaScript": 1471880,
     "HTML": 3300267,
     "PLpgSQL": 40623,
     "SCSS": 4661,
@@ -111,8 +111,8 @@
       0,
       0,
       1,
-      6,
-      7,
+      8,
+      9,
       1,
       0,
       0,
@@ -216,8 +216,8 @@
     1,
     10,
     13,
-    9,
-    18,
+    11,
+    20,
     5,
     17,
     9,
@@ -230,41 +230,41 @@
     3,
     0
   ],
-  "pushCount": 149,
+  "pushCount": 153,
   "peakHour": 18,
   "lateShare": 2,
   "recent": [
     {
-      "name": "Frank-s-website",
-      "description": "A personal site for Frank Niu, built with Astro.",
-      "language": "Astro",
-      "pushedAt": "2026-08-19T20:00:48Z",
-      "url": "https://github.com/mattypark/Frank-s-website"
+      "name": "matthewsugcportfolio",
+      "description": "",
+      "language": "TypeScript",
+      "pushedAt": "2026-08-20T16:45:22Z",
+      "url": "https://github.com/mattypark/matthewsugcportfolio"
     },
     {
       "name": "khacks",
       "description": "",
       "language": "TypeScript",
-      "pushedAt": "2026-08-19T19:35:07Z",
+      "pushedAt": "2026-08-20T16:13:33Z",
       "url": "https://github.com/mattypark/khacks"
     },
     {
-      "name": "AxiomApply",
-      "description": "The Axiom Pathways site with a 3-step application form.",
-      "language": "HTML",
-      "pushedAt": "2026-08-19T16:30:30Z",
-      "url": "https://github.com/mattypark/AxiomApply"
+      "name": "bbtestingwithdillon",
+      "description": "",
+      "language": "TypeScript",
+      "pushedAt": "2026-08-20T16:12:51Z",
+      "url": "https://github.com/mattypark/bbtestingwithdillon"
     },
     {
-      "name": "mochi",
-      "description": "substack",
-      "language": "Lua",
-      "pushedAt": "2026-08-19T16:14:28Z",
-      "url": "https://github.com/mattypark/mochi"
+      "name": "email-outreach-agent",
+      "description": "",
+      "language": "",
+      "pushedAt": "2026-08-20T13:09:11Z",
+      "url": "https://github.com/mattypark/email-outreach-agent"
     }
   ],
   "activity": {
-    "commits": 716,
+    "commits": 723,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
