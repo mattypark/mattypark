@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-22T07:03:29.773Z",
+  "generatedAt": "2026-08-23T07:05:27.301Z",
   "followers": 25,
   "publicRepos": 87,
   "originalRepos": 69,
   "bytes": {
-    "TypeScript": 4515321,
-    "CSS": 584910,
-    "JavaScript": 1548012,
+    "TypeScript": 4603372,
+    "JavaScript": 1548646,
+    "CSS": 590866,
     "HTML": 3300267,
     "PLpgSQL": 40623,
     "SCSS": 4661,
@@ -163,12 +163,12 @@
       0,
       0,
       0,
+      4,
       1,
-      0,
       0,
       5,
       1,
-      0,
+      2,
       0,
       5,
       0,
@@ -216,12 +216,12 @@
     1,
     11,
     13,
-    11,
-    23,
+    14,
+    24,
     5,
     17,
     9,
-    10,
+    12,
     17,
     24,
     8,
@@ -230,41 +230,41 @@
     3,
     0
   ],
-  "pushCount": 161,
-  "peakHour": 18,
+  "pushCount": 167,
+  "peakHour": 12,
   "lateShare": 2,
   "recent": [
     {
       "name": "Matthew-sportfolio",
       "description": "A testing sandbox for Matthew Park's portfolio.",
       "language": "JavaScript",
-      "pushedAt": "2026-08-21T23:04:48Z",
+      "pushedAt": "2026-08-22T20:54:34Z",
       "url": "https://github.com/mattypark/Matthew-sportfolio"
     },
     {
-      "name": "language-talking-game",
-      "description": "",
-      "language": "TypeScript",
-      "pushedAt": "2026-08-21T16:46:24Z",
-      "url": "https://github.com/mattypark/language-talking-game"
-    },
-    {
       "name": "ai-synthesis-research-paper-idea",
-      "description": "",
-      "language": "",
-      "pushedAt": "2026-08-21T15:53:08Z",
+      "description": "A local reader that turns a paper into a page-anchored synthesis.",
+      "language": "TypeScript",
+      "pushedAt": "2026-08-22T20:16:22Z",
       "url": "https://github.com/mattypark/ai-synthesis-research-paper-idea"
     },
     {
-      "name": "matthewsugcportfolio",
-      "description": "",
+      "name": "AxiomApply",
+      "description": "The Axiom Pathways site with a 3-step application form.",
+      "language": "HTML",
+      "pushedAt": "2026-08-22T20:01:38Z",
+      "url": "https://github.com/mattypark/AxiomApply"
+    },
+    {
+      "name": "language-talking-game",
+      "description": "A random voice-practice room for language learners, scored afterwards.",
       "language": "TypeScript",
-      "pushedAt": "2026-08-20T16:45:22Z",
-      "url": "https://github.com/mattypark/matthewsugcportfolio"
+      "pushedAt": "2026-08-21T16:46:24Z",
+      "url": "https://github.com/mattypark/language-talking-game"
     }
   ],
   "activity": {
-    "commits": 737,
+    "commits": 748,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
