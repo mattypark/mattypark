@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-24T07:32:00.649Z",
-  "followers": 25,
+  "generatedAt": "2026-08-25T07:12:01.629Z",
+  "followers": 26,
   "publicRepos": 87,
   "originalRepos": 69,
   "bytes": {
-    "TypeScript": 4603372,
-    "JavaScript": 1551071,
-    "CSS": 590866,
+    "TypeScript": 4623353,
+    "JavaScript": 1561825,
+    "CSS": 592436,
     "HTML": 3300267,
     "PLpgSQL": 40623,
     "SCSS": 4661,
@@ -33,7 +33,7 @@
       0,
       0,
       0,
-      0,
+      2,
       1,
       0,
       10,
@@ -163,7 +163,7 @@
       0,
       0,
       0,
-      4,
+      3,
       1,
       0,
       5,
@@ -216,7 +216,7 @@
     1,
     11,
     13,
-    14,
+    15,
     24,
     5,
     17,
@@ -230,15 +230,22 @@
     3,
     0
   ],
-  "pushCount": 146,
+  "pushCount": 147,
   "peakHour": 12,
   "lateShare": 2,
   "recent": [
     {
+      "name": "bouncebackswebsiteee",
+      "description": "The site for BounceBack, a recycled pickleball brand.",
+      "language": "TypeScript",
+      "pushedAt": "2026-08-24T15:16:17Z",
+      "url": "https://github.com/mattypark/bouncebackswebsiteee"
+    },
+    {
       "name": "Matthew-sportfolio",
       "description": "A testing sandbox for Matthew Park's portfolio.",
       "language": "JavaScript",
-      "pushedAt": "2026-08-24T00:51:38Z",
+      "pushedAt": "2026-08-24T15:04:57Z",
       "url": "https://github.com/mattypark/Matthew-sportfolio"
     },
     {
@@ -254,17 +261,10 @@
       "language": "HTML",
       "pushedAt": "2026-08-22T20:01:38Z",
       "url": "https://github.com/mattypark/AxiomApply"
-    },
-    {
-      "name": "language-talking-game",
-      "description": "A random voice-practice room for language learners, scored afterwards.",
-      "language": "TypeScript",
-      "pushedAt": "2026-08-21T16:46:24Z",
-      "url": "https://github.com/mattypark/language-talking-game"
     }
   ],
   "activity": {
-    "commits": 749,
+    "commits": 752,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
