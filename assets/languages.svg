@@ -1,7 +1,7 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 880 320" width="880" height="320"
-  role="img" aria-label="Languages by bytes: TypeScript 34%, HTML 33%, JavaScript 17%, Swift 7%, CSS 4%, Lua 2%. 75 original repositories, 16 languages."
+  role="img" aria-label="Languages by bytes: TypeScript 34%, HTML 33%, JavaScript 17%, Swift 7%, CSS 4%, Lua 2%. 76 original repositories, 16 languages."
   font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace"
 >
   <defs>
@@ -26,7 +26,7 @@
   <rect class="frame" x="1" y="1" width="878" height="318" rx="7" />
 
   <text class="serif faint rise" x="40" y="44" font-size="11" letter-spacing="3.2" style="animation-delay:.45s">L A N G U A G E S</text>
-  <text class="dim rise" x="40" y="68" font-size="12.5" style="animation-delay:.5s">by bytes written across 75 original repositories</text>
+  <text class="dim rise" x="40" y="68" font-size="12.5" style="animation-delay:.5s">by bytes written across 76 original repositories</text>
   <line x1="40" y1="86" x2="840" y2="86" stroke="#2B2926" />
 
     <circle
@@ -38,7 +38,7 @@
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="154.79 310.16"
+        to="155.99 308.96"
         dur="0.75s" begin="0.55s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -46,12 +46,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#CFCBC2" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-157.29"
+      stroke-dashoffset="-158.49"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="149.67 315.29"
+        to="149.13 315.83"
         dur="0.75s" begin="0.70s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -59,12 +59,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#ACA89F" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-309.46"
+      stroke-dashoffset="-310.12"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="76.43 388.53"
+        to="75.96 389.00"
         dur="0.75s" begin="0.85s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -72,12 +72,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#89857D" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-388.38"
+      stroke-dashoffset="-388.58"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="28.63 436.33"
+        to="28.44 436.51"
         dur="0.75s" begin="1.00s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -85,12 +85,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#66635C" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-419.51"
+      stroke-dashoffset="-419.52"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="15.79 449.17"
+        to="15.94 449.02"
         dur="0.75s" begin="1.15s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -98,12 +98,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#4A4841" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-437.80"
+      stroke-dashoffset="-437.96"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="7.18 457.78"
+        to="7.12 457.84"
         dur="0.75s" begin="1.30s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -111,12 +111,12 @@
       cx="138" cy="176" r="74" fill="none"
       stroke="#333029" stroke-width="19"
       stroke-dasharray="0 464.96"
-      stroke-dashoffset="-447.48"
+      stroke-dashoffset="-447.58"
       transform="rotate(-90 138 176)"
     >
       <animate attributeName="stroke-dasharray"
         from="0 464.96"
-        to="14.98 449.98"
+        to="14.87 450.08"
         dur="0.75s" begin="1.45s"
         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze" />
     </circle>
@@ -126,17 +126,17 @@
     <g class="rise" style="animation-delay:0.90s">
       <rect x="266" y="109" width="10" height="10" fill="#F2EFE8" />
       <text class="ink" x="290" y="118" font-size="14">TypeScript</text>
-      <text class="dim" x="470" y="118" font-size="14" text-anchor="end">33.8%</text>
+      <text class="dim" x="470" y="118" font-size="14" text-anchor="end">34.1%</text>
     </g>
     <g class="rise" style="animation-delay:0.99s">
       <rect x="266" y="136" width="10" height="10" fill="#CFCBC2" />
       <text class="ink" x="290" y="145" font-size="14">HTML</text>
-      <text class="dim" x="470" y="145" font-size="14" text-anchor="end">32.7%</text>
+      <text class="dim" x="470" y="145" font-size="14" text-anchor="end">32.6%</text>
     </g>
     <g class="rise" style="animation-delay:1.08s">
       <rect x="266" y="163" width="10" height="10" fill="#ACA89F" />
       <text class="ink" x="290" y="172" font-size="14">JavaScript</text>
-      <text class="dim" x="470" y="172" font-size="14" text-anchor="end">17.0%</text>
+      <text class="dim" x="470" y="172" font-size="14" text-anchor="end">16.9%</text>
     </g>
     <g class="rise" style="animation-delay:1.17s">
       <rect x="266" y="190" width="10" height="10" fill="#89857D" />
@@ -146,7 +146,7 @@
     <g class="rise" style="animation-delay:1.26s">
       <rect x="266" y="217" width="10" height="10" fill="#66635C" />
       <text class="ink" x="290" y="226" font-size="14">CSS</text>
-      <text class="dim" x="470" y="226" font-size="14" text-anchor="end">3.9%</text>
+      <text class="dim" x="470" y="226" font-size="14" text-anchor="end">4.0%</text>
     </g>
     <g class="rise" style="animation-delay:1.35s">
       <rect x="266" y="244" width="10" height="10" fill="#4A4841" />
@@ -156,16 +156,16 @@
     <g class="rise" style="animation-delay:1.44s">
       <rect x="266" y="271" width="10" height="10" fill="#333029" />
       <text class="ink" x="290" y="280" font-size="14">Other</text>
-      <text class="dim" x="470" y="280" font-size="14" text-anchor="end">3.8%</text>
+      <text class="dim" x="470" y="280" font-size="14" text-anchor="end">3.7%</text>
     </g>
 
     <g class="rise" style="animation-delay:1.15s">
-      <text class="ink serif" x="560" y="112" font-size="30">75</text>
+      <text class="ink serif" x="560" y="112" font-size="30">76</text>
       <text class="dim" x="648" y="112" font-size="13">original repos</text>
       <line x1="560" y1="126" x2="840" y2="126" stroke="#2B2926" />
     </g>
     <g class="rise" style="animation-delay:1.25s">
-      <text class="ink serif" x="560" y="160" font-size="30">95</text>
+      <text class="ink serif" x="560" y="160" font-size="30">96</text>
       <text class="dim" x="648" y="160" font-size="13">public repos</text>
       <line x1="560" y1="174" x2="840" y2="174" stroke="#2B2926" />
     </g>
@@ -175,7 +175,7 @@
       <line x1="560" y1="222" x2="840" y2="222" stroke="#2B2926" />
     </g>
     <g class="rise" style="animation-delay:1.45s">
-      <text class="ink serif" x="560" y="256" font-size="30">150</text>
+      <text class="ink serif" x="560" y="256" font-size="30">144</text>
       <text class="dim" x="648" y="256" font-size="13">pushes · 90d</text>
       <line x1="560" y1="270" x2="840" y2="270" stroke="#2B2926" />
     </g>

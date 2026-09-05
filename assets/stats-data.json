@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-04T11:27:03.004Z",
+  "generatedAt": "2026-09-05T10:42:59.229Z",
   "followers": 29,
-  "publicRepos": 95,
-  "originalRepos": 75,
+  "publicRepos": 96,
+  "originalRepos": 76,
   "bytes": {
-    "TypeScript": 5051298,
-    "JavaScript": 2534655,
-    "CSS": 587361,
-    "HTML": 4886687,
+    "TypeScript": 5120366,
+    "JavaScript": 2534749,
+    "CSS": 595692,
+    "HTML": 4898562,
     "PLpgSQL": 99387,
     "SCSS": 4661,
     "Swift": 999681,
@@ -87,15 +87,15 @@
       8,
       10,
       5,
-      10,
-      12,
-      3,
+      5,
+      8,
+      4,
       1,
       3,
       1,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0
@@ -123,7 +123,7 @@
       0,
       3,
       1,
-      0,
+      1,
       0
     ],
     [
@@ -218,29 +218,36 @@
     9,
     15,
     19,
-    27,
-    13,
-    24,
+    22,
+    9,
+    25,
     10,
     7,
     5,
     7,
     4,
-    4,
+    5,
     1,
-    2,
+    3,
     0
   ],
-  "pushCount": 150,
-  "peakHour": 12,
-  "lateShare": 1,
+  "pushCount": 144,
+  "peakHour": 14,
+  "lateShare": 2,
   "recent": [
     {
       "name": "texas",
       "description": "",
       "language": "HTML",
-      "pushedAt": "2026-09-04T02:08:23Z",
+      "pushedAt": "2026-09-05T04:18:29Z",
       "url": "https://github.com/mattypark/texas"
+    },
+    {
+      "name": "proba-website",
+      "description": "A pre-launch marketing site for a boba protein shake.",
+      "language": "TypeScript",
+      "pushedAt": "2026-09-04T18:36:49Z",
+      "url": "https://github.com/mattypark/proba-website"
     },
     {
       "name": "manychat-copy",
@@ -255,17 +262,10 @@
       "language": "Swift",
       "pushedAt": "2026-09-02T16:39:06Z",
       "url": "https://github.com/mattypark/findi-location-"
-    },
-    {
-      "name": "chingo",
-      "description": "",
-      "language": "Swift",
-      "pushedAt": "2026-09-02T15:30:32Z",
-      "url": "https://github.com/mattypark/chingo"
     }
   ],
   "activity": {
-    "commits": 863,
+    "commits": 866,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
