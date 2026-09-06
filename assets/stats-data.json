@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-05T10:42:59.229Z",
+  "generatedAt": "2026-09-06T11:05:02.262Z",
   "followers": 29,
-  "publicRepos": 96,
-  "originalRepos": 76,
+  "publicRepos": 98,
+  "originalRepos": 77,
   "bytes": {
     "TypeScript": 5120366,
     "JavaScript": 2534749,
@@ -10,9 +10,9 @@
     "HTML": 4898562,
     "PLpgSQL": 99387,
     "SCSS": 4661,
-    "Swift": 999681,
+    "Swift": 1090026,
+    "Shell": 96277,
     "Python": 184612,
-    "Shell": 86098,
     "Lua": 310756,
     "Metal": 5575,
     "Dockerfile": 915,
@@ -121,8 +121,8 @@
       0,
       0,
       0,
-      3,
-      1,
+      0,
+      0,
       1,
       0
     ],
@@ -138,7 +138,7 @@
       1,
       1,
       1,
-      0,
+      1,
       4,
       0,
       0,
@@ -175,7 +175,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0
     ],
     [
@@ -217,7 +217,7 @@
     3,
     9,
     15,
-    19,
+    20,
     22,
     9,
     25,
@@ -226,15 +226,29 @@
     5,
     7,
     4,
-    5,
-    1,
-    3,
+    2,
+    0,
+    4,
     0
   ],
-  "pushCount": 144,
+  "pushCount": 142,
   "peakHour": 14,
-  "lateShare": 2,
+  "lateShare": 3,
   "recent": [
+    {
+      "name": "chingo",
+      "description": "",
+      "language": "Swift",
+      "pushedAt": "2026-09-06T02:50:16Z",
+      "url": "https://github.com/mattypark/chingo"
+    },
+    {
+      "name": "slangtionary",
+      "description": "",
+      "language": "",
+      "pushedAt": "2026-09-05T20:13:59Z",
+      "url": "https://github.com/mattypark/slangtionary"
+    },
     {
       "name": "texas",
       "description": "",
@@ -248,24 +262,10 @@
       "language": "TypeScript",
       "pushedAt": "2026-09-04T18:36:49Z",
       "url": "https://github.com/mattypark/proba-website"
-    },
-    {
-      "name": "manychat-copy",
-      "description": "",
-      "language": "",
-      "pushedAt": "2026-09-02T18:44:26Z",
-      "url": "https://github.com/mattypark/manychat-copy"
-    },
-    {
-      "name": "findi-location-",
-      "description": "An event-scoped friend finder for concerts and festivals.",
-      "language": "Swift",
-      "pushedAt": "2026-09-02T16:39:06Z",
-      "url": "https://github.com/mattypark/findi-location-"
     }
   ],
   "activity": {
-    "commits": 866,
+    "commits": 884,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
