@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-06T11:05:02.262Z",
+  "generatedAt": "2026-09-07T12:44:30.481Z",
   "followers": 29,
   "publicRepos": 98,
   "originalRepos": 77,
   "bytes": {
-    "TypeScript": 5120366,
-    "JavaScript": 2534749,
-    "CSS": 595692,
+    "TypeScript": 5201502,
+    "JavaScript": 2552218,
+    "CSS": 624182,
     "HTML": 4898562,
     "PLpgSQL": 99387,
     "SCSS": 4661,
@@ -143,7 +143,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0,
       2,
       2,
@@ -153,7 +153,7 @@
       0
     ],
     [
-      0,
+      1,
       0,
       0,
       0,
@@ -206,7 +206,7 @@
     ]
   ],
   "hours": [
-    0,
+    1,
     0,
     0,
     0,
@@ -222,7 +222,7 @@
     9,
     25,
     10,
-    7,
+    6,
     5,
     7,
     4,
@@ -233,21 +233,21 @@
   ],
   "pushCount": 142,
   "peakHour": 14,
-  "lateShare": 3,
+  "lateShare": 4,
   "recent": [
+    {
+      "name": "slangtionary",
+      "description": "",
+      "language": "TypeScript",
+      "pushedAt": "2026-09-06T15:27:12Z",
+      "url": "https://github.com/mattypark/slangtionary"
+    },
     {
       "name": "chingo",
       "description": "",
       "language": "Swift",
       "pushedAt": "2026-09-06T02:50:16Z",
       "url": "https://github.com/mattypark/chingo"
-    },
-    {
-      "name": "slangtionary",
-      "description": "",
-      "language": "",
-      "pushedAt": "2026-09-05T20:13:59Z",
-      "url": "https://github.com/mattypark/slangtionary"
     },
     {
       "name": "texas",
@@ -265,7 +265,7 @@
     }
   ],
   "activity": {
-    "commits": 884,
+    "commits": 889,
     "codeReview": 0,
     "issues": 1,
     "pullRequests": 0
