@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="matthew.jpg" width="180" alt="Matthew Park" />
+<img src="matthew.jpg" width="150" alt="Matthew Park" />
 
 ### Matthew Park
 
@@ -10,41 +10,75 @@
 
 <br/>
 
-I'm 15. I started building before I was old enough to have a job, and the plan was never to wait — not for permission, not for a degree, not for someone to call me qualified.
+## Things you can install
 
-So I built an audience, then a nonprofit, then the tools I wished existed. I shipped every one of them in public. Most people optimize for looking ready; I optimized for reps.
+Tools I built because I needed them, and kept because other people did too. Every one runs on your own machine — no account, no server, no telemetry.
 
-**Currently:** running [Axiom Pathways](https://github.com/mattypark/Nonprofitwebsite), a nonprofit teaching AI, CS, and entrepreneurship to high schoolers who care more than they're qualified — chapter model, partnered with Stanford KID, recently pitched to 30+ angel investors. Building [Baseline](https://github.com/mattypark/baseline-fitness) and [Bery](https://github.com/mattypark/forpeopletorememebr) alongside it. Open to collaborating on nonprofit partnerships, creator tooling, and anything AI-agent shaped.
+<table>
+<tr>
+<td width="50%">
 
-<br/>
+<a href="https://github.com/mattypark/statusline"><img src="assets/work/statusline.svg" width="100%" alt="Four tmux panes, each with its own background colour and a matching status line: project name in a gradient, model in blue, effort in green, tokens shifting orange to red." /></a>
 
-## Selected work
+**[statusline](https://github.com/mattypark/statusline)** — a Claude Code status line that's colour-coded by meaning, plus a tmux painter so each pane and its line share a colour. <sub>Shell · tmux · ANSI</sub>
 
-| | |
-|---|---|
-| [**Axiom Pathways**](https://github.com/mattypark/Nonprofitwebsite) | The nonprofit I founded and run. Chapters teaching AI, CS, and startups to high schoolers. Stanford KID partner, intern-run. <sub>Next.js · Astro · Supabase</sub> |
-| [**Baseline**](https://github.com/mattypark/baseline-fitness) | AI-memory training and fuel dashboard. Tell it something once; it remembers and auto-fills the rest. <sub>Next.js · Claude · SQLite</sub> |
-| [**Bery**](https://github.com/mattypark/forpeopletorememebr) | Personal CRM for actually remembering people. Describe someone in a sentence, get a filled-in profile back. <sub>Next.js · Supabase · Gemini</sub> |
-| [**Creator Dashboard**](https://github.com/mattypark/creator-dashboard) | Single-user content OS — draft, schedule, and auto-post to X and LinkedIn. <sub>Next.js · Supabase · Anthropic</sub> |
-| [**Dram**](https://github.com/mattypark/colonge-project) | Cologne recommendation agent built on a sample → verify → buy loop. <sub>Agent backend · climate signal</sub> |
+</td>
+<td width="50%">
+
+<a href="https://github.com/mattypark/claudeaiagentreminderguy"><img src="assets/work/claude-pet.png" width="100%" alt="A pixel crab on the desktop next to a card reading 'your session is done — take a look :)' with a three-bullet summary of what the session changed." /></a>
+
+**[Claude Code Pet](https://github.com/mattypark/claudeaiagentreminderguy)** — a desktop pet that tells you when a Claude session finishes and what it actually did. <sub>Hammerspoon · Lua</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+<a href="https://github.com/mattypark/costpriority"><img src="assets/work/costpriority.svg" width="100%" alt="A green ghost beside a board listing the day ranked P0 to P3, each with a one-line reason, then the rest of the day's calendar." /></a>
+
+**[costpriority](https://github.com/mattypark/costpriority)** — click the pet, get your day ranked P0–P3 with a reason for each. Reads your Mac's own calendar; nothing leaves the machine. <sub>Hammerspoon · EventKit</sub>
+
+</td>
+<td width="50%">
+
+<a href="https://github.com/mattypark/organizepet"><img src="assets/work/organizepet.svg" width="100%" alt="A keyboard-driven panel listing every desktop pet with its status, and rows for hiding all of them, tidying them, and switching appearance." /></a>
+
+**[organizepet](https://github.com/mattypark/organizepet)** — one hotkey to see and control every desktop pet you have. Hide all, tidy, reload. <sub>Hammerspoon · Lua</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+<a href="https://github.com/mattypark/Claudemacbooktoiphone"><img src="assets/work/phone-terminals.svg" width="100%" alt="Eight coloured tmux panes on a Mac with two status rows, and the same session zoomed full-screen on a phone." /></a>
+
+**[Claude Code: Mac → iPhone](https://github.com/mattypark/Claudemacbooktoiphone)** — run Claude Code on your Mac, drive it from your phone. Closing the app detaches; it never kills the work. <sub>tmux · SSH · Tailscale</sub>
+
+</td>
+<td width="50%">
+
+<a href="https://github.com/mattypark/describatory"><img src="assets/work/describatory.svg" width="100%" alt="A repo's empty About section, and the same repo after: a written description and six topics." /></a>
+
+**[describatory](https://github.com/mattypark/describatory)** — reads your actual code and rewrites every repo's About line and topics in one voice. Reviewed before anything is pushed. <sub>Claude Code · gh CLI</sub>
+
+</td>
+</tr>
+</table>
 
 <sub>[All repositories →](https://github.com/mattypark?tab=repositories)</sub>
 
 <br/>
 
-## By the numbers
+## The rest of it
 
-<div align="center">
+I'm 15. I started building before I was old enough to have a job, and the plan was never to wait — not for permission, not for a degree, not for someone to call me qualified. So I built an audience, then a nonprofit, then the tools I wished existed, and shipped every one of them in public.
 
-<img src="assets/languages.svg" width="100%" alt="Languages by bytes written across 43 original repositories: TypeScript 36%, HTML 34%, JavaScript 13%, CSS 6%, Swift 5%, Astro 3%. 43 original repos, 61 public repos, 12 languages." />
-
-<img src="assets/rhythm.svg" width="100%" alt="When I commit: a 7-day by 24-hour matrix of push activity. Busiest hour is midnight; 33% of pushes land between 10pm and 3am." />
-
-<img src="assets/activity.svg" width="100%" alt="Activity mix over the last 12 months as a four-axis radar: commits, pull requests, code review, and issues." />
-
-</div>
-
-<sub>These cards are generated from live GitHub data by [a scheduled Action](.github/workflows/stats.yml) and committed into this repo — no third-party service to go down.</sub>
+| | |
+|---|---|
+| [**Axiom Pathways**](https://github.com/mattypark/Nonprofitwebsite) | The nonprofit I founded and run. Chapters teaching AI, CS, and startups to high schoolers. Stanford KID partner, intern-run, recently pitched to 30+ angel investors. |
+| [**Baseline**](https://github.com/mattypark/baseline-fitness) | AI-memory training and fuel dashboard. Tell it something once; it remembers and auto-fills the rest. |
+| [**Bery**](https://github.com/mattypark/forpeopletorememebr) | Personal CRM for actually remembering people. Describe someone in a sentence, get a filled-in profile back. |
+| [**Premiere Shelf**](https://github.com/mattypark/premierepropreview-PPP-) | Every Premiere project on your Mac on one wall — hover to play, click for the transcript and the grade. |
 
 <br/>
 
