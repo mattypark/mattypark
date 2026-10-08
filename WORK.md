@@ -68,8 +68,8 @@ wished existed, and shipped every one of them in public.
 | | |
 |---|---|
 | [**Axiom Pathways**](https://github.com/mattypark/Nonprofitwebsite) | The nonprofit I founded and run. Chapters teaching AI, CS, and startups to high schoolers. Stanford KID partner, intern-run, recently pitched to 30+ angel investors. |
-| [**Baseline**](https://github.com/mattypark/baseline-fitness) | AI-memory training and fuel dashboard. Tell it something once; it remembers and auto-fills the rest. |
-| [**Bery**](https://github.com/mattypark/forpeopletorememebr) | Personal CRM for actually remembering people. Describe someone in a sentence, get a filled-in profile back. |
+| **Nudgy** | An iPhone assistant (plus a Mac app and a web version) that listens to your day and quietly does the next thing: reminders from what you say in passing, answers on your Lock Screen, drafts and issues in your own apps, nothing sent without your yes. In private beta. |
+| [**Freeze**](https://github.com/mattypark/freezecmoputer) | A free Mac menu-bar app: ⌥⇧⌘F locks the keyboard and trackpad while the screen stays on; type your secret code to thaw. |
 | [**Premiere Shelf**](https://github.com/mattypark/premierepropreview-PPP-) | Every Premiere project on your Mac on one wall — hover to play, click for the transcript and the grade. |
 
 <sub>[All repositories →](https://github.com/mattypark?tab=repositories)</sub>
